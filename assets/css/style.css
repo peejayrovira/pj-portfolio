@@ -1,0 +1,18 @@
+#sidenav {
+	background-color: grey;
+	height: 100vh;
+}
+
+#home-content {
+	background-color:transparent;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+#carousel {
+	margin: 5% 5%;
+}
+
+.card {
+	width: 100%;
+}

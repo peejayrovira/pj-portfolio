@@ -1,18 +1,70 @@
-#sidenav {
-	background-color: grey;
-	height: 100vh;
+
+/*background styles*/
+.container {
+	background-image: url("assets/images/beverage-blank-business-745409.jpg");
+	opacity: 20%;
 }
 
-#home-content {
-	background-color:transparent;
-	height: 100vh;
-	margin: 0 auto;
+/*navbar styles*/
+.nav-item {
+	font-family: "Exo", sans-serif;
 }
 
-#carousel {
-	margin: 5% 5%;
+#logo {
+	font-family: 'Exo', sans-serif;
 }
 
-.card {
+#profile-img img{
 	width: 100%;
+	height: 100%;
+	/*border-radius: 50%;*/
+}
+
+.nav-item {
+	padding: 30px;
+}
+
+
+/*skills styles*/
+#skills-container {
+	height: 40vh;
+}
+
+.progress {
+	background-color: transparent;
+	width: 100%;
+}
+
+#skills-banner {
+	font-family: 'Exo', sans-serif;
+}
+
+#html, #css, #bootstrap, #javascript #laravel h4{
+	font-family: 'Exo' sans-serif;
+}
+
+/*about styles*/
+.jumbotron {
+	background: transparent;
+	/*border: none;*/
+}
+
+.card-title {
+	text-decoration: underline;
+	font-family: 'Exo', sans-serif;
+
+}
+
+.card-body, .about-contents {
+	font-family: 'Exo', sans-serif;
+
+}
+
+/*contact styles*/
+.contact, .btn, label, h3, footer{
+	font-family: 'Exo', sans-serif;
+}
+
+#contact-me {
+	text-decoration: underline;
 }

@@ -4,13 +4,17 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfoilio</title>
+  <title>Portfolio</title>
 
   <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- googlefonts -->
     <link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
+   	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+
  <!--    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto" rel="stylesheet"> -->
 
@@ -48,10 +52,10 @@
 	        <a class="nav-link active" href="#about">ABOUT ME <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">SKILLS</a>
+	        <a class="nav-link" href="#skills">SKILLS</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">PROJECTS</a>
+	        <a class="nav-link" href="#projects">PROJECTS</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#contact">CONTACT</a>
@@ -59,126 +63,110 @@
 	    </ul>
 	  </div>
 	</nav>
-
-	<div class="container-fluid">
+<!-- 
+	<div class="container"> -->
 
 		<!-- about section -->
-		<div class="jumbotron" id="about">
+		<div class="jumbotron-fluid mt-5" id="about">
 			<div class="row">
-				<div class="col-lg-4"></div>
-				<div class="col-lg-4" id="profile-img">
+				<div class="col-lg-4 col-md-3 col-sm-2"></div>
+				<div class="col-lg-4 col-md-6 col-sm-8" id="profile-img">
 					<div class="card">
-					  <img class="card-img-top" src="assets/images/pj.png" alt="Card image cap">
+						<div class="img-holder justify-content-center" id="frame">
+							<img class="card-img-top" src="assets/images/pj.png" alt="Card image cap">
+						</div>
 					  <div class="card-body text-center">
 					    <h2 class="card-title">PAUL JOHN ROVIRA</h2>
 					    <h4 class="card-text">FULL STACK WEB DEVELOPER</h4>
-					    <p class="about-contents">I’m a full stack web developer. I spend my days with my hands in many different areas of web development from back end programming (PHP, Django/Python, Ruby on Rails) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
+					    <h5><span>Email:</span> <a href="#">pauljohn.rovira@gmail.com</a></h5>
+					    <h5><span>Mobile:</span> +639985961104</h5>
 
-						<p class="about-contents">I’m extremely passionate about web development and design in all it’s forms and helping small businesses and artisans build and improve their online presence</p>
+					    <hr class="my-4">
+
 					  </div>
 					</div>
 				</div>
-				<div class="col-lg-4"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-3 col-sm-2"></div>
+				<div class="col-lg-4 col-md-6 col-sm-8 text-center" id="about-description">
+					<div>
+						<p class="about-contents">I will be a full stack web developer. I will spend my days with my hands in many different areas of web development from back end programming (PHP, Python, Laravel) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
+						<p class="about-contents">I’m extremely passionate about web development and design in all it’s forms and will be helping small businesses and artisans build and improve their online presence.</p>
+						<hr class="my-4">
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<!-- skills section --> 
+
 		<div class="row">
-			<h3 class="text-center col-lg-12 col-md-12 col-sm-12" id="skills-banner">SKILLS</h3>
 			<div class="col-lg-2"></div>
-			<div class="col-lg-8" id="skills-container">
-				<div class="row" id="html">
-					<div class="col=lg-4"></div>
-					<div class="col-lg-4">
-						<h4>HTML</h4>
-					</div>
-					<div class="col-lg-4">
-						<div class="progress">
-						  <div class="progress-bar bg-primary" style="width: 100%"role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">100%</div>
-						</div>
-					</div>
+			<div class="col-lg-8" id="skills">
+				<div class="text text-center" id="skills-header">
+					<h3>SKILLS</h3>
 				</div>
 				
-				<div class="row" id="css">
-					<div class="col-lg-2">
-						<h4>CSS</h4>
-					</div>
-					<div class="col-lg-4">
-						<div class="progress">
-						  <div class="progress-bar bg-success" style="width: 80%"role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-						</div>
-					</div>
-				</div>
-				<div class="row" id="bootstrap">
-					<div class="col-lg-2">
-						<h4>BOOTSTRAP</h4>
-					</div>
-					<div class="col-lg-4">
-						<div class="progress">
-						  <div class="progress-bar bg-success" style="width: 80%"role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">80%</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="row" id="javascript">
-					<div class="col-lg-2">
-						<h4>JAVASCRIPT</h4>
-					</div>
-					<div class="col-lg-4">
-						<div class="progress">
-						  <div class="progress-bar bg-info" style="width: 30%"role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row" id="laravel">
-					<div class="col-lg-2">
-						<h4>LARAVEL</h4>
-					</div>
-					<div class="col-lg-4">
-						<div class="progress">
-						  <div class="progress-bar bg-danger" style="width: 10%"role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
 
+		</div> <!-- end of skills section -->
+		
+
+		<!-- projects section -->
+
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8" id="projects">
+				<div class="text text-center" id="projects-header">
+					<h3>PROJECTS</h3>
+				</div>
+				
+		</div> <!-- end of projects section -->
+
+
+
 		<!-- contact section -->
-		<div class="row" id="contact">
+		<div class="row mx-5" id="contact">
 			<div class="col-lg-3"></div>
 			<div class="col-lg-6">
 				<form>
 	            	<div class="text">
-	        		  <h3 class="text-center" id="contact-me">Contact</h3> 
-	        		  <p>Get in touch using this form or feel free to email me at pauljohn.rovira@gmailcom.If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)
-
+	        		  <h3 class="text-center" id="contact-me">CONTACT</h3> 
 	        		  <hr class="my-4">
-
+	        		  <p>Get in touch using this form or feel free to email me at <a href="pauljohn.rovira@gmailcom">pauljohn.rovira@gmailcom</a>.If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)
+	        		  <hr class="my-4">
 	            	</div>
-	          
-	              <div class="form-group">
-	                <label for="exampleInputEmail1">Full Name</label>
-	                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
-	              </div>
-	              <div class="form-group">
-	                <label for="email-address">Email Address</label>
-	                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
-	              </div>
-	              <div class="form-group">
-	                <label for="subject">Subject</label>
-	                <input type="text" class="form-control" id="subject" placeholder="Subject">
-	              </div>
-		          	<div class="form-group">
-					  <label for="comment">Message:</label>
-					  <textarea class="form-control" rows="5" id="comment"></textarea>
-					</div>
-	              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+
+	            	<div class="row">
+	            		<div class="col-lg-2"></div>
+	            		<div class="col-lg-8">
+	            			  <div class="form-group px-0">
+				                <label for="exampleInputEmail1">Full Name</label>
+				                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
+				              </div>
+				              <div class="form-group">
+				                <label for="email-address">Email Address</label>
+				                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
+				              </div>
+				              <div class="form-group">
+				                <label for="subject">Subject</label>
+				                <input type="text" class="form-control" id="subject" placeholder="Subject">
+				              </div>
+					          	<div class="form-group">
+								  <label for="comment">Message:</label>
+								  <textarea class="form-control" rows="6" id="comment"></textarea>
+								</div>
+				              <button type="submit" class="btn btn-dark text-white">Submit</button>		
+				            </div>
+	            		</div>
+            	</form>
 			</div>
 		</div>
-	</div> <!-- end of container -->
-		<footer class="container-fluid text-center text-white mt-3 bg-dark sticky-footer">Copyright &copy; 2018</footer>
+<!-- 
+	</div> end of container -->
+	<footer class="footer-fluid text-white bg-dark text-center mt-3">Copyright &copy; 2018</footer>	
+
 </body>
 </html>

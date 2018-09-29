@@ -1,70 +1,257 @@
 
-/*background styles*/
-.container {
-	background-image: url("assets/images/beverage-blank-business-745409.jpg");
-	opacity: 20%;
-}
+/* 
+  ##Device = Desktops 
+  ##Screen = 1025px to higher resolution desktops
+*/
 
-/*navbar styles*/
-.nav-item {
-	font-family: "Exo", sans-serif;
-}
-
-#logo {
-	font-family: 'Exo', sans-serif;
-}
-
-#profile-img img{
-	width: 100%;
-	height: 100%;
-	/*border-radius: 50%;*/
-}
-
-.nav-item {
-	padding: 30px;
-}
-
-
-/*skills styles*/
-#skills-container {
-	height: 40vh;
-}
-
-.progress {
-	background-color: transparent;
-	width: 100%;
-}
-
-#skills-banner {
-	font-family: 'Exo', sans-serif;
-}
-
-#html, #css, #bootstrap, #javascript #laravel h4{
-	font-family: 'Exo' sans-serif;
-}
-
-/*about styles*/
-.jumbotron {
-	background: transparent;
-	/*border: none;*/
-}
-
-.card-title {
-	text-decoration: underline;
-	font-family: 'Exo', sans-serif;
+@media (min-width: 1025px) {
+  
+	//CSS
 
 }
 
-.card-body, .about-contents {
-	font-family: 'Exo', sans-serif;
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  	/*navbar styles*/
+	.nav-item {
+		font-family: "Exo", sans-serif;
+	}
+
+	#logo {
+		font-family: 'Exo', sans-serif;
+	}
+
+	#frame {
+		width: 40%;
+		height: 40%;
+	}
+
+	#profile-img img{
+		width: 100%;
+		height:100%;
+/*		border-radius: 50%;
+*/	}
+
+	.nav-item {
+		padding: 30px;
+	}
+
+	/*about styles*/
+	}
+	.jumbotron {
+		background: transparent;
+		/*border: none;*/
+	}
+
+	.card-title {
+		text-decoration: underline;
+		font-family: 'Exo', sans-serif;
+		display: inline-block;
+
+	}
+
+	.card-text {
+		font-family: 'Exo', sans-serif;
+	}
+
+	.card {
+		border: none;
+	}
+
+	.card-body span, #about-description {
+		font-family: 'Rubik', sans-serif;
+		color: black;
+		font-weight: bold;
+
+	}
+
+	/*skills styles*/
+	#skills {
+		height: 100vh;
+	}
+
+	#html-logo {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*projects styles*/
+
+	#projects {
+		height: 100vh;
+	}
+
+	/*contact styles*/
+	.contact, .btn, label, h3, footer{
+		font-family: 'Exo', sans-serif;
+	}
+
+	#contact-me, #skills-header {
+		text-decoration: underline;
+	}
+
+	/*footer styles*/
+	footer {
+		left: 0;
+		width: 100%;
+		bottom: 0;
+
+	}
+  
 }
 
-/*contact styles*/
-.contact, .btn, label, h3, footer{
-	font-family: 'Exo', sans-serif;
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	  
+
+	  
+ 	#logo, .nav-item {
+		padding: px;
+		font-family: 'Exo', sans-serif;
+	}
+  
+	/*skills styles*/
+	#skills {
+		height: 60vh;
+	}
+  
 }
 
-#contact-me {
-	text-decoration: underline;
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    	/*navbar styles*/
+	.nav-item {
+		font-family: "Exo", sans-serif;
+	}
+
+	#logo {
+		font-family: 'Exo', sans-serif;
+	}
+
+	#frame {
+		width: 100%;
+		height: 100%;
+	}
+
+	#profile-img img{
+		width: 40%;
+		height: 40%;
+/*		border-radius: 50%;*/
+	}
+
+	.nav-item {
+		padding: 5px;
+	}
+
+	/*about styles*/
+	}
+	.jumbotron {
+		background: transparent;
+		/*border: none;*/
+	}
+
+	.card-title {
+		text-decoration: underline;
+		font-family: 'Exo', sans-serif;
+
+	}
+
+	.card-text {
+		font-family: 'Exo', sans-serif;
+	}
+
+	.card {
+		border: none;
+	}
+
+	.card-body span, #about-description {
+		font-family: 'Rubik', sans-serif;
+		color: black;
+		font-weight: bold;
+
+	}
+
+	/*skills styles*/
+	#skills {
+		height: 60vh;
+	}
+
+	#html-logo {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*projects styles*/
+
+	#projects {
+		height: 60vh;
+	}
+
+	/*contact styles*/
+	.contact, .btn, label, h3, footer{
+		font-family: 'Exo', sans-serif;
+	}
+
+	#contact-me, #skills-header {
+		text-decoration: underline;
+	}
+
+	/*footer styles*/
+	footer {
+		left: 0;
+		width: 100%;
+		bottom: 0;
+
+	}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ 	#logo, .nav-item {
+		padding: px;
+		font-family: 'Exo', sans-serif;
+	}
+
+	.jumbotron {
+		background: transparent;
+		margin-top: 2px;
+	}
+
+		.card {
+		border: none;
+	}
+
+		#skills {
+		height: 50vh;
 }

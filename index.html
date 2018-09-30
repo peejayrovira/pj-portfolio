@@ -13,6 +13,8 @@
     <!-- googlefonts -->
     <link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
    	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+   	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
 
 
  <!--    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
@@ -42,7 +44,7 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#" id="logo">PJ | ROVIRA</a>
+	  <a class="navbar-brand" href="#" id="logo"><span>PJ | ROVIRA</span></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -63,44 +65,33 @@
 	    </ul>
 	  </div>
 	</nav>
-<!-- 
-	<div class="container"> -->
 
-		<!-- about section -->
-		<div class="jumbotron-fluid mt-5" id="about">
-			<div class="row">
-				<div class="col-lg-4 col-md-3 col-sm-2"></div>
-				<div class="col-lg-4 col-md-6 col-sm-8" id="profile-img">
-					<div class="card">
-						<div class="img-holder justify-content-center" id="frame">
-							<img class="card-img-top" src="assets/images/pj.png" alt="Card image cap">
-						</div>
-					  <div class="card-body text-center">
-					    <h2 class="card-title">PAUL JOHN ROVIRA</h2>
-					    <h4 class="card-text">FULL STACK WEB DEVELOPER</h4>
-					    <h5><span>Email:</span> <a href="#">pauljohn.rovira@gmail.com</a></h5>
-					    <h5><span>Mobile:</span> +639985961104</h5>
+		<!-- about me section -->
+	
 
-					    <hr class="my-4">
-
-					  </div>
+		<div class="row" id="about">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4 mb-3">
+					<div class="text text-center mt-5 mb-3" id="about-header">
+						<h3>ABOUT ME</h3>
 					</div>
+				<div class="content-center">
+					<img src="assets/images/pj.png" id="profile-pic">
 				</div>
-			</div>
+				<div class="text-center py-3">
+					<h4>PAUL JOHN ROVIRA</h4>
+					<h5>FULL STACK WEB DEVELOPER</h5>
+				</div>
 
-			<div class="row">
-				<div class="col-lg-4 col-md-3 col-sm-2"></div>
-				<div class="col-lg-4 col-md-6 col-sm-8 text-center" id="about-description">
-					<div>
-						<p class="about-contents">I will be a full stack web developer. I will spend my days with my hands in many different areas of web development from back end programming (PHP, Python, Laravel) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
-						<p class="about-contents">I’m extremely passionate about web development and design in all it’s forms and will be helping small businesses and artisans build and improve their online presence.</p>
-						<hr class="my-4">
-					</div>
-				</div>
+				<div class="text" id="about-contents">
+				<p>Hello! My name is PJ and I am a full stack web developer. I spend my days with my hands in many different areas of web development from back end programming (PHP, Python, Laravel) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
+				<p>I’m extremely passionate about web development and design in all it’s forms and help small businesses and artisans build and improve their online presence.</p>
 			</div>
+			</div>
+			
 		</div>
 
-		<!-- skills section --> 
+		<!-- skills section -->
 
 		<div class="row">
 			<div class="col-lg-2"></div>
@@ -109,39 +100,64 @@
 					<h3>SKILLS</h3>
 				</div>
 				
-		</div>
+			</div>
 
 		</div> <!-- end of skills section -->
 		
 
 		<!-- projects section -->
 
-		<div class="row">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8" id="projects">
-				<div class="text text-center" id="projects-header">
+		<div class="cont my-5" id="projects">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8" id="project-gallery">
+					<div class="text text-center mb-5" id="projects-header">
 					<h3>PROJECTS</h3>
+					</div>
+					<div class="card-deck">
+		  				<div class="card" id="project-1">
+						    <div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(assets/images/mt-guiting-resized.png)">
+							</div>
+					    <div class="card-body text-center" id="project-link1">
+					      <h5 class="card-title"><a href="https://peejayrovira.github.io/sibuyan-island/">SIBUYAN ISLAND</a></h5>
+					    </div>
+					 	</div>
+					  	<div class="card" id="project-2">
+					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(https://web.opendrive.com/api/v1/download/file.json/NTlfMTMzMTgyNzlf?inline=1)">
+			  				</div>
+					    <div class="card-body text-center" id="project-link2">
+					      <h5 class="card-title"><a href="">CAPSTONE 2</a></h5>
+					    </div>
+					  	</div>
+					  	<div class="card" id="project-3">
+					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(https://web.opendrive.com/api/v1/download/file.json/NTlfMTMzMzA2MjVf?inline=1)">
+							</div>
+					    <div class="card-body text-center" id="project-link3">
+					      <h5 class="card-title"><a href="">CAPSTONE 3</a></h5>
+					    </div>
+				  </div>
 				</div>
-				
+				<hr class="my-4">
+				</div>
+			</div>
 		</div> <!-- end of projects section -->
 
 
-
 		<!-- contact section -->
-		<div class="row mx-5" id="contact">
-			<div class="col-lg-3"></div>
-			<div class="col-lg-6">
+		<div class="row mx-5 my-3" id="contact">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
 				<form>
 	            	<div class="text">
-	        		  <h3 class="text-center" id="contact-me">CONTACT</h3> 
-	        		  <hr class="my-4">
-	        		  <p>Get in touch using this form or feel free to email me at <a href="pauljohn.rovira@gmailcom">pauljohn.rovira@gmailcom</a>.If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)
-	        		  <hr class="my-4">
+	        		  <h3 class="text-center" id="contact-me">CONTACT</h3>
 	            	</div>
 
 	            	<div class="row">
 	            		<div class="col-lg-2"></div>
 	            		<div class="col-lg-8">
+	            			<div class="text text-center mt-3 mb-3">
+		        		  	  <h5 id="contact-intro">Get in touch using this form or feel free to email me at <a href="pauljohn.rovira@gmailcom">pauljohn.rovira@gmailcom</a>. If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)</h5>
+		        		 	 </div>
 	            			  <div class="form-group px-0">
 				                <label for="exampleInputEmail1">Full Name</label>
 				                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
@@ -164,9 +180,6 @@
             	</form>
 			</div>
 		</div>
-<!-- 
-	</div> end of container -->
 	<footer class="footer-fluid text-white bg-dark text-center mt-3">Copyright &copy; 2018</footer>	
-
 </body>
 </html>

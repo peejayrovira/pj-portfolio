@@ -71,21 +71,26 @@
 
 		<div class="row" id="about">
 			<div class="col-lg-4"></div>
-			<div class="col-lg-4 mb-3">
-					<div class="text text-center mt-5 mb-3" id="about-header">
-						<h3>ABOUT ME</h3>
-					</div>
+			<div class="col-lg-4 mt-3 mb-3">
 				<div class="content-center">
 					<img src="assets/images/pj.png" id="profile-pic">
 				</div>
 				<div class="text-center py-3">
-					<h4>PAUL JOHN ROVIRA</h4>
-					<h5>FULL STACK WEB DEVELOPER</h5>
+					<h3>PAUL JOHN ROVIRA</h4>
+					<h4>FULL STACK WEB DEVELOPER</h5>
+						<div class="text"><i class="fa fa-envelope fa-border"></i>
+							<span>Email:</span><a href="#"> pauljohn.rovira@gmail.com</a></div>
+						<div class="text"><i class="fa fa-mobile fa-lg fa-border"></i>
+							<span>Mobile:</span><a href="#"> +63 9985961104</a>
+						</div>
 				</div>
 
 				<div class="text" id="about-contents">
-				<p>Hello! My name is PJ and I am a full stack web developer. I spend my days with my hands in many different areas of web development from back end programming (PHP, Python, Laravel) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
-				<p>I’m extremely passionate about web development and design in all it’s forms and help small businesses and artisans build and improve their online presence.</p>
+					<div class="text text-center mt-3 mb-3" id="about-header">
+						<h3>ABOUT ME</h3>
+					</div>
+					<p>Hello! My name is PJ and I am a full stack web developer. I spend my days with my hands in many different areas of web development from back end programming (PHP, Python, Laravel) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
+					<p>I’m extremely passionate about web development and design in all it’s forms and help small businesses and artisans build and improve their online presence.</p>
 			</div>
 			</div>
 			
@@ -123,14 +128,14 @@
 					    </div>
 					 	</div>
 					  	<div class="card" id="project-2">
-					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(https://web.opendrive.com/api/v1/download/file.json/NTlfMTMzMTgyNzlf?inline=1)">
+					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(assets/images/wip-logo.png)">
 			  				</div>
 					    <div class="card-body text-center" id="project-link2">
 					      <h5 class="card-title"><a href="">CAPSTONE 2</a></h5>
 					    </div>
 					  	</div>
 					  	<div class="card" id="project-3">
-					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(https://web.opendrive.com/api/v1/download/file.json/NTlfMTMzMzA2MjVf?inline=1)">
+					  		<div class="reveal-text-on-image" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing eli" style="background-image:url(assets/images/wip-logo.png)">
 							</div>
 					    <div class="card-body text-center" id="project-link3">
 					      <h5 class="card-title"><a href="">CAPSTONE 3</a></h5>
@@ -156,23 +161,28 @@
 	            		<div class="col-lg-2"></div>
 	            		<div class="col-lg-8">
 	            			<div class="text text-center mt-3 mb-3">
-		        		  	  <h5 id="contact-intro">Get in touch using this form or feel free to email me at <a href="pauljohn.rovira@gmailcom">pauljohn.rovira@gmailcom</a>. If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)</h5>
+		        		  	  <p id="contact-intro">Get in touch using this form or feel free to email me at <a href="pauljohn.rovira@gmailcom">pauljohn.rovira@gmailcom</a>.</p> 
+		        		  	  <p>If you are inquiring about working with me on a project, please try to provide a few details about your project if at all possible (e.g. requirements, budget, timeline, etc.)</p>
 		        		 	 </div>
 	            			  <div class="form-group px-0">
-				                <label for="exampleInputEmail1">Full Name</label>
-				                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
+	            			  	 <i class="fa fa-user fa-border"></i>
+				                <label for="exampleInputEmail1">Full Name:</label>
+				                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Name (required)">
 				              </div>
 				              <div class="form-group">
-				                <label for="email-address">Email Address</label>
-				                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
+				              	<i class="fa fa-envelope fa-border"></i>
+				                <label for="email-address">Email Address:</label>
+				                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Your Email (required)"> 
 				              </div>
 				              <div class="form-group">
-				                <label for="subject">Subject</label>
+				              	<i class="fas fa-folder fa-border"></i>
+				                <label for="subject">Subject:</label>
 				                <input type="text" class="form-control" id="subject" placeholder="Subject">
 				              </div>
 					          	<div class="form-group">
+					          		<i class="fas fa-pencil-alt fa-border"></i>
 								  <label for="comment">Message:</label>
-								  <textarea class="form-control" rows="6" id="comment"></textarea>
+								  <textarea class="form-control" rows="6" id="comment">Your Message (required)</textarea>
 								</div>
 				              <button type="submit" class="btn btn-dark text-white">Submit</button>		
 				            </div>

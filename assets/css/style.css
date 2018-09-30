@@ -318,7 +318,7 @@
 	}
 
 	.reveal-text-on-image:after {
-	  background: #fff;
+	  background: #808080;
 	  transform: translateY(100%);
 	  content: attr(data-text);
 	  padding: 8px;

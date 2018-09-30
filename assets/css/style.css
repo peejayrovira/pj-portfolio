@@ -4,12 +4,26 @@
   ##Screen = 1025px to higher resolution desktops
 */
 
-/*@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   
 	 /*navbar styles*/
 	.nav-item, #logo {
 		font-family: "Exo", sans-serif;
 	}
+
+	#about {
+		height: 100vh;
+	}
+
+	#skills {
+		height: 100vh;
+	}
+
+	#projects {
+		height: 100vh;
+	}
+
+
 
 
 }*/
@@ -34,8 +48,9 @@
 	}
 
 	#about {
-		height: 150vh;
+		height: 130vh;
 	}
+
 
 	#profile-pic {
 		width: 100%;
@@ -44,7 +59,7 @@
 		border: 5px solid grey;
 	}	
 
-	#about h4, h5 {
+	#about h4, h5, span{
 		font-family: 'Exo', sans-serif;
 		font-weight: bold;
 	}
@@ -55,18 +70,22 @@
 		border-bottom: 1px solid grey;
 	}
 
+	#about a {
+		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
+	}
+
 	
 
 	/*skills styles*/
 	#skills {
-		height: 100vh;
+		height: 80vh
+
 	}
-
-
 	/*projects styles*/
 
 	#projects {
-		height: 60vh;
+		height: 50vh;
 	}
 
 	.card-deck {
@@ -141,6 +160,7 @@
 
 	#contact-intro {
 		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
 	}
 
 	/*footer styles*/
@@ -164,12 +184,22 @@
 		padding: 10px;
 		font-family: 'Exo', sans-serif;
 	}
+
+	#about {
+    	height: 130vh;
+    	width: 100%;
+    }
+
   
 	/*skills styles*/
 	#skills {
-		height: 60vh;
+		height: 100vh;
 	}
   
+  	#projects {
+		height: 100vh;
+	}
+
 }
 
 /* 
@@ -180,6 +210,12 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
     /*navbar styles*/
+
+    #about {
+    	height: 130vh;
+    	width: 100%;
+    }
+
 	.nav-item, #logo, {
 		font-family: "Exo", sans-serif;
 	}
@@ -190,7 +226,7 @@
 
 	/*skills styles*/
 	#skills {
-		height: 80vh;
+		height: 100vh;
 	}
 
 
@@ -204,6 +240,7 @@
 		width: 100%;
 		height: 100%;
 	}
+
 	.card-deck {
 		height: 100%;
 		width: 100%;
@@ -212,12 +249,6 @@
 	.card-body, .card-title {
 		border: none;
 	}
-
-	#project-1, #project-2, #project-3 {
-		width: 100%;
-		height: 100%;
-	}
-
 
 	.reveal-text-on-image {
 	  width: 100%;
@@ -273,6 +304,11 @@
 		text-decoration: underline;
 	}
 
+	#contact-intro {
+		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
+	}
+
 	/*footer styles*/
 	footer {
 		left: 0;
@@ -289,8 +325,27 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  //CSS
+
+   	#logo, .nav-item {
+		padding: 10px;
+		font-family: 'Exo', sans-serif;
+	}
+	
+
+	#about {
+    	height: 130vh;
+    	width: 100%;
+    }
+
+	#skills {
+		height: 100vh;
+	}
+
+	/*projects styles | mobile*/
+
+	#projects {
+		height: 100vh;
+	}
   
 }
 
@@ -306,17 +361,25 @@
 		font-family: 'Exo', sans-serif;
 	}
 
+	
 	#about {
-		height: 220vh;
+    	height: 150vh;
+    	width: 100%;
+    }
+
+	#about h4, h5, span{
+		font-family: 'Exo', sans-serif;
+		font-weight: bold;
 	}
-		#skills {
-		height: 150vh;
+	
+	#skills {
+		height: 100vh;
 	}
 
 	/*projects styles | mobile*/
 
 	#projects {
-		height: 180vh;
+		height: 100vh;
 	}
 
 

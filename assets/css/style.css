@@ -197,7 +197,7 @@
 	/*projects styles*/
 
 	#projects {
-		height: 70vh;
+		height: 100vh;
 	}
 
 	#project-gallery {
@@ -306,24 +306,19 @@
 		font-family: 'Exo', sans-serif;
 	}
 
-/*	.jumbotron {
-		background: transparent;
-		margin-top: 2px;
-	}*/
-
-/*		.card {
-		border: none;
+	#about {
+		height: 200vh;
 	}
-*/
 		#skills {
-		height: 80vh;
+		height: 150vh;
 	}
 
 	/*projects styles | mobile*/
 
 	#projects {
-		height: 100vh;
+		height: 150vh;
 	}
+
 
 }
 

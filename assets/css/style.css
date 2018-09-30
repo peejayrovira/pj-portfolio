@@ -12,7 +12,7 @@
 	}
 
 	#about {
-		height: 100vh;
+		height: 130vh;
 	}
 
 	#skills {
@@ -22,8 +22,6 @@
 	#projects {
 		height: 100vh;
 	}
-
-
 
 
 }*/
@@ -48,7 +46,7 @@
 	}
 
 	#about {
-		height: 130vh;
+		height: 150vh;
 	}
 
 
@@ -79,9 +77,54 @@
 
 	/*skills styles*/
 	#skills {
-		height: 80vh
+		height: 80vh;
 
 	}
+
+	.progress {
+		height: 5%;
+		width: 100%;
+	}
+
+
+	.progress-label {
+		font-family: 'Exo', sans-serif;
+	}
+
+		/*progress colors*/
+		#html {
+			background-color: #FF69B4;
+		}
+
+		#css {
+			background-color: #DA70D6;
+		}
+
+		#bootstrap {
+			background-color: #FA8072;
+		}
+
+		#jquery {
+			background-color: #FF7F50;
+		}
+
+		#python {
+			background-color: #FFD700;
+		}
+
+		#php {
+			background-color: #228B22;
+		}
+
+		#mysql {
+			background-color: #1E90FF;
+		}
+
+		#laravel {
+			background-color: #7D3C98;
+		}
+
+
 	/*projects styles*/
 
 	#projects {
